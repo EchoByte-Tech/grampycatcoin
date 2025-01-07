@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(to right, #343a40, #495057);
+  }
+  
+  footer {
+    background: linear-gradient(to right, #495057, #343a40);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  .btn-dark:hover {
+    background-color: #495057;
+  }
+  
+  .brand-img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
